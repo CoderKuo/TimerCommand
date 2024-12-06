@@ -1,0 +1,22 @@
+
+
+processBar:
+  point: '■'
+  blank: '□'
+  total: 20
+  format: '%point%%blank% [%rate%%]'
+
+default:
+  actionbar:
+    enable: true
+    text: '%process%'
+  bossBar:
+    enable: true
+    color: green
+    text: '命令执行中... 倒计时 %time% 秒.'
+    style: SOLID
+  sound:
+    enable: true
+    tick: 'BLOCK_ANVIL_LAND'
+    end: 'ENTITY_PLAYER_LEVELUP'
+
